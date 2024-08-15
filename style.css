@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: aqua;
+    height:100% ;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+}
+nav{
+    background-color: rgb(63, 58, 58);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 6px 0px 6px;
+}
+.logo{
+    /* background-color: aqua; */
+    font-size: 25px;
+    color: white;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+   /* padding-left: 10px;*/
+    
+    /* align-self: flex-end; */
+}
+ul{
+    /* background-color: pink; */
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    
+    
+    
+}
+li{
+    list-style-type: none;
+    align-self: center;
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul li .search{
+    height: 50px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 0px;
+    
+}
+
+ul li i{
+    font-size: 22px;
+    color: white;
+}
+li .btn{
+    background-color: #05A081;
+    font-size: 18px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0px;
+
+}
+nav input{
+    margin-top: 0px;
+}
+div ul li i{
+    color:black;
+    margin-left:-40px;
+}
+.dots i{
+    color: white;
+    font-size: 22px;
+}
+.nav1{
+    background-color: black;
+    height: 40px;
+    text-align: right;
+    padding-right: 55px;
+}
+.one{
+    background-color: azure;
+    color: black;
+    padding: 2px;
+    font-family: cursive;
+    border-radius: 9px;
+    margin: 5px;
+    font-weight: bold;
+}
+.two{
+    background-color: azure;
+    color: black;
+    padding: 2px;
+    font-family: cursive;
+    border-radius: 9px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+.nav1 i{
+    color: #ffffff;
+    /*background-color: #ffffff;*/
+    font-size: 18px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
